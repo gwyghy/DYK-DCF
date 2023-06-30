@@ -1,0 +1,90 @@
+T2BE8 000:181.591   SEGGER J-Link V6.86 Log File
+T2BE8 000:181.761   DLL Compiled: Sep 24 2020 17:31:31
+T2BE8 000:181.785   Logging started @ 2023-05-08 09:25
+T2BE8 000:181.794 - 181.799ms
+T2BE8 000:181.813 JLINK_SetWarnOutHandler(...)
+T2BE8 000:181.825 - 0.017ms
+T2BE8 000:181.838 JLINK_OpenEx(...)
+T2BE8 000:183.401   Firmware: J-Link V11 compiled Feb  4 2021 12:59:17
+T2BE8 000:183.700   Decompressing FW timestamp took 235 us
+T2BE8 000:186.283   Hardware: V11.00
+T2BE8 000:186.378   S/N: 260106173
+T2BE8 000:186.410   OEM: SEGGER
+T2BE8 000:186.492   Feature(s): FlashBP, GDB, FlashDL, JFlash, RDI
+T2BE8 000:189.766   TELNET listener socket opened on port 19021
+T2BE8 000:190.030   WEBSRV Starting webserver
+T2BE8 000:190.227   WEBSRV Webserver running on local port 19080
+T2BE8 000:190.261 - 8.430ms returns "O.K."
+T2BE8 000:190.296 JLINK_GetEmuCaps()
+T2BE8 000:190.312 - 0.022ms returns 0xB9FF7BBF
+T2BE8 000:190.338 JLINK_TIF_GetAvailable(...)
+T2BE8 000:190.529 - 0.208ms
+T2BE8 000:190.565 JLINK_SetErrorOutHandler(...)
+T2BE8 000:190.579 - 0.021ms
+T2BE8 000:190.618 JLINK_ExecCommand("ProjectFile = "C:\Users\ghy\Desktop\´ýÌá½»²âÊÔµç´Å·§Çý¶¯Æ÷³ÌÐò\Ó²\MDK\JLinkSettings.ini"", ...). 
+T2BE8 000:206.478 - 15.912ms returns 0x00
+T2BE8 000:206.562 JLINK_ExecCommand("Device = STM32F103RB", ...). 
+T2BE8 000:207.001   Device "STM32F103RB" selected.
+T2BE8 000:207.606 - 1.036ms returns 0x00
+T2BE8 000:207.658 JLINK_GetHardwareVersion()
+T2BE8 000:207.675 - 0.024ms returns 110000
+T2BE8 000:207.703 JLINK_GetDLLVersion()
+T2BE8 000:207.718 - 0.022ms returns 68600
+T2BE8 000:207.737 JLINK_GetOEMString(...)
+T2BE8 000:207.757 JLINK_GetFirmwareString(...)
+T2BE8 000:207.773 - 0.024ms
+T2BE8 000:207.799 JLINK_GetDLLVersion()
+T2BE8 000:207.815 - 0.022ms returns 68600
+T2BE8 000:207.834 JLINK_GetCompileDateTime()
+T2BE8 000:207.849 - 0.022ms
+T2BE8 000:207.874 JLINK_GetFirmwareString(...)
+T2BE8 000:207.890 - 0.024ms
+T2BE8 000:207.912 JLINK_GetHardwareVersion()
+T2BE8 000:207.927 - 0.022ms returns 110000
+T2BE8 000:207.951 JLINK_GetSN()
+T2BE8 000:207.967 - 0.023ms returns 260106173
+T2BE8 000:207.990 JLINK_GetOEMString(...)
+T2BE8 000:208.019 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T2BE8 000:208.887 - 0.886ms returns 0x00
+T2BE8 000:208.920 JLINK_HasError()
+T2BE8 000:208.958 JLINK_SetSpeed(3000)
+T2BE8 000:209.084 - 0.138ms
+T2BE8 000:209.467 JLINK_HasError()
+T2BE8 000:209.487 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T2BE8 000:209.498 - 0.015ms returns JLINKARM_RESET_TYPE_NORMAL
+T2BE8 000:209.512 JLINK_Reset()
+T2BE8 000:736.483   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 000:892.796   
+  ***** Error: 
+T2BE8 000:892.833   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 001:121.805   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 001:278.965   
+  ***** Error: 
+T2BE8 001:279.023   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 001:329.852 - 1120.386ms
+T2BE8 001:329.971 JLINK_GetId()
+T2BE8 001:435.232   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 001:594.231   
+  ***** Error: 
+T2BE8 001:594.285   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 001:822.780   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 001:979.599   
+  ***** Error: 
+T2BE8 001:979.637   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 002:030.636 - 700.698ms returns 0x00000000
+T2BE8 002:030.699 JLINK_GetId()
+T2BE8 002:139.483   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 002:297.113   
+  ***** Error: 
+T2BE8 002:297.150   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 002:527.366   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T2BE8 002:686.084   
+  ***** Error: 
+T2BE8 002:686.156   STM32: Connecting to CPU via connect under reset failed.
+T2BE8 002:736.871 - 706.204ms returns 0x00000000
+T2BE8 002:743.606 JLINK_GetFirmwareString(...)
+T2BE8 002:743.634 - 0.033ms
+T2BE8 060:018.439 JLINK_Close()
+T2BE8 060:033.094 - 14.743ms
+T2BE8 060:033.195   
+T2BE8 060:033.206   Closed
